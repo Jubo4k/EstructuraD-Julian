@@ -1,0 +1,159 @@
+{
+  "brand": "Yamaha",
+  "models": [
+    {
+      "modelId": "YZF-R1",
+      "name": "YZF-R1",
+      "type": "Sportbike",
+      "price": 17399,
+      "engine": {
+        "type": "Inline 4",
+        "displacement": 998,
+        "horsepower": 200,
+        "torque": 112.4,
+        "fuelType": "Gasoline"
+      },
+      "performance": {
+        "topSpeed": 186,
+        "acceleration": {
+          "0to60": 2.5,
+          "quarterMile": 9.9
+        },
+        "brakes": "Brembo",
+        "suspension": {
+          "front": "KYB USD Fork",
+          "rear": "KYB Monoshock"
+        }
+      },
+      "colors": ["Yamaha Blue", "Matte Black", "Silver"],
+      "features": [
+        "Quick Shifter",
+        "Traction Control",
+        "Ride-by-wire",
+        "LED Lighting"
+      ],
+      "reviews": [
+        {
+          "reviewer": "MotoExpert123",
+          "rating": 4.5,
+          "comment": "Incredible performance, but a bit too aggressive for beginners."
+        },
+        {
+          "reviewer": "SpeedJunkie99",
+          "rating": 5,
+          "comment": "A perfect balance between power and handling. A true track machine!"
+        }
+      ],
+      "availableIn": [
+        "USA",
+        "Canada",
+        "UK",
+        "Australia"
+      ],
+      "isAvailable": true
+    },
+    {
+      "modelId": "MT-07",
+      "name": "MT-07",
+      "type": "Naked Bike",
+      "price": 7499,
+      "engine": {
+        "type": "Parallel Twin",
+        "displacement": 689,
+        "horsepower": 74,
+        "torque": 50,
+        "fuelType": "Gasoline"
+      },
+      "performance": {
+        "topSpeed": 130,
+        "acceleration": {
+          "0to60": 3.5,
+          "quarterMile": 12.5
+        },
+        "brakes": "Nissin",
+        "suspension": {
+          "front": "KYB Fork",
+          "rear": "Monocross Shock"
+        }
+      },
+      "colors": ["Matt Grey", "Raven Black", "Race Blue"],
+      "features": [
+        "Assist & Slipper Clutch",
+        "ABS",
+        "LED Tail Light"
+      ],
+      "reviews": [
+        {
+          "reviewer": "EverydayRider",
+          "rating": 4.0,
+          "comment": "Great bike for daily commuting, with a punchy engine and smooth ride."
+        },
+        {
+          "reviewer": "StreetRider88",
+          "rating": 4.8,
+          "comment": "Fun and versatile. Handles well in both city and open roads!"
+        }
+      ],
+      "availableIn": [
+        "USA",
+        "Europe",
+        "Japan"
+      ],
+      "isAvailable": true
+    }
+  ],
+  "topSellers": [
+    "YZF-R1",
+    "MT-07"
+  ],
+  "discounts": {
+    "YZF-R1": {
+      "discountPercentage": 5,
+      "validUntil": "2025-06-30"
+    },
+    "MT-07": {
+      "discountPercentage": 3,
+      "validUntil": "2025-05-31"
+    }
+  },
+  "dealerLocations": [
+    {
+      "country": "USA",
+      "state": "California",
+      "city": "Los Angeles",
+      "dealerName": "Yamaha Moto Center",
+      "contact": {
+        "phone": "+1-800-123-4567",
+        "email": "info@yamaha-losangeles.com"
+      },
+      "stock": {
+        "YZF-R1": 5,
+        "MT-07": 7
+      }
+    },
+    {
+      "country": "UK",
+      "state": "England",
+      "city": "London",
+      "dealerName": "SpeedMoto Yamaha",
+      "contact": {
+        "phone": "+44-20-1234-5678",
+        "email": "sales@speedmoto.com"
+      },
+      "stock": {
+        "YZF-R1": 3,
+        "MT-07": 8
+      }
+    }
+  ],
+  "warranty": {
+    "YZF-R1": {
+      "duration": "2 years",
+      "coverage": "Full Warranty including parts and labor"
+    },
+    "MT-07": {
+      "duration": "1 year",
+      "coverage": "Limited Warranty"
+    }
+  }
+}
